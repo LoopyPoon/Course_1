@@ -1,10 +1,8 @@
 package Lab_11.Lessons;
 
 public class Lesson8 {
-
     static Node head;
     static Node tail;
-
     public static void main(String[] args) {
         addFirst(5);
         addFirst(4);
@@ -22,12 +20,9 @@ public class Lesson8 {
 
         System.out.println(printNode());
     }
-
     public static void addFirst(int value) {
         Node element = new Node();
-
         element.value = value;
-
         if (head == null) {
             head = element;
             tail = element;
@@ -39,9 +34,7 @@ public class Lesson8 {
 
     public static void addLast(int value) {
         Node element = new Node();
-
         element.value = value;
-
         if (tail == null) {
             head = element;
             tail = element;
@@ -100,5 +93,4 @@ public class Lesson8 {
         }
         return s;
     }
-
 }

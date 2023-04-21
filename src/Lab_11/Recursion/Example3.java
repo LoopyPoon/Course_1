@@ -1,19 +1,15 @@
 package Lab_11.Recursion;
 
 public class Example3 {
-
     private static int step = 0;
-
     public static void main(String[] args) {
         m(1);
     }
-
     public static void space() {
         for (int i = 0; i < step; i++) {
             System.out.print(" ");
         }
     }
-
     public static void m(int x) {
         space();
         System.out.println("" + x + " -> ");

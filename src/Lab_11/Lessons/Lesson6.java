@@ -24,10 +24,7 @@ public class Lesson6 {
         printKeyGreater5(idAndNames);
         printValuesEqual0(idAndNames);
         multiValuesGreater5(idAndNames);
-
-
     }
-
     public static void printKeyGreater5(HashMap<Integer, String> idAndNames) {
         for (Map.Entry<Integer, String> entry : idAndNames.entrySet()) {
             if (entry.getKey() > 5) {
@@ -35,7 +32,6 @@ public class Lesson6 {
             }
         }
     }
-
     public static void printValuesEqual0(HashMap<Integer, String> idAndNames) {
         for (Map.Entry<Integer, String> entry : idAndNames.entrySet()) {
             if (entry.getKey() == 0) {
@@ -43,7 +39,6 @@ public class Lesson6 {
             }
         }
     }
-
     public static void multiValuesGreater5(HashMap<Integer, String> idAndNames) {
         int multi = 1;
         for (Map.Entry<Integer, String> entry : idAndNames.entrySet()) {
